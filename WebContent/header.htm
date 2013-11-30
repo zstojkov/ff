@@ -1,0 +1,128 @@
+
+
+<div class="logo">
+	<table>
+		<tr>
+			<td><img src="/images/logo64.png"></td>
+			<td>Fashion &amp; Furnishing</td>
+		</tr>
+	</table>
+</div>
+
+<div class="smallmenu" >
+	<table>
+		<tr>
+			<td><a href="/index.htm">Home</a></td>
+			<td><a href="/fashion-furnishings/about.htm">About F&amp;F </a></td>
+			<td><a href="/fashion-furnishings/how-we-work.htm">How We Work </a></td>
+			<td><a href="/fashion-furnishings/contacts.htm">Contacts</a></td>
+			<td><a href="/fashion-furnishings/links.htm">Links</a></td>
+		</tr>
+	</table>
+</div>
+
+<script type="text/javascript">
+	/* underline selected menu item (based on a selectyed page ID) */
+	$(function() {
+		$('.smallmenu a').css("text-decoration","none");
+		pages = $('.pagecontent').attr("id");
+		if (pages.length > 0)
+		{
+			menuitem=$('.smallmenu a:contains('+$('.pagecontent').attr("id")+')');
+			if (menuitem.length > 0)
+			{
+				el=menuitem.get(0);
+				if (el !== null) {
+					el.style.textDecoration = 'underline';
+				}
+			}
+		}
+	});
+</script>
+
+<div id="accordion_menu">
+	 <ul class="accordion" id="accordion">
+	   <li class="bg1">
+			<a href="/furniture/bespoke-furniture.htm">
+			<div class="heading">Furniture</div>
+			<div class="bgDescription"></div>
+			<div class="description">
+				<h2>Furniture</h2>
+				<p>Small bespoke pieces of furniture.</p>
+			</div>
+			</a>
+		</li>
+		<li class="bg2">
+			<a href="/fashion/alterations.htm">
+			<div class="heading">Alterations</div>
+			<div class="bgDescription"></div>
+			<div class="description">
+				<h2>Alterations</h2>
+				<p>Designer and general garment alterations.</p>
+			</div>
+			</a>
+		</li>
+		<li class="bg3">
+				<a href="/soft-furnishings/upholstery.htm">
+			<div class="heading">Upholstery</div>
+			<div class="bgDescription"></div>
+			<div class="description">
+				<h2>Upholstery</h2>
+				<p>Light reupholstery, loose covers, upholstered pelmets and more.</p>
+			</div>
+			</a>
+		</li>
+		<li class="bg4">
+			<a href="/soft-furnishings/cushions.htm">
+			<div class="heading">Cushions</div>
+			<div class="bgDescription"></div>
+			<div class="description">
+				<h2>Cushions</h2>
+				<p>Decorative cushions bring colour and texture to any room. </p>
+			</div>
+			</a>
+		</li>
+		<li class="bg5">
+			<a href="/soft-furnishings/blinds.htm">
+			<div class="heading">Blinds</div>
+			<div class="bgDescription"></div>
+			<div class="description">
+				<h2>Blinds</h2>
+				<p>	Made to measure blinds in variety of styles: Roman blinds, Austrian blinds, roller blinds...</p>
+			</div>
+			</a>
+		</li>
+		<li class="bg6 bleft">
+			<a href="/soft-furnishings/curtains.htm">
+			<div class="heading">Curtains</div>
+			<div class="bgDescription"></div>
+			<div class="description">
+				<h2>Curtains</h2>
+				<p>Curtains made to measure in a modern or traditional design.</p>
+			</div>
+			</a>
+		</li>
+	</ul>
+</div>
+
+<script type="text/javascript">
+	$(function() {
+		$('#accordion > li').hover(
+			function () {
+				var $this = $(this);
+				$this.stop().animate({'height':'300px', width:'300'},500);
+				$('.heading',$this).stop(true,true).fadeOut();
+				$('.bgDescription',$this).stop(true,true).slideDown(500);
+				$('.description',$this).stop(true,true).fadeIn();
+			},
+			function () {
+				var $this = $(this);
+				$this.stop().animate({'height':'143px', width:'80'},1000);
+				$('.heading',$this).stop(true,true).fadeIn();
+				$('.description',$this).stop(true,true).fadeOut(500);
+				$('.bgDescription',$this).stop(true,true).slideUp(700);
+			}
+		);
+	});
+</script>
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.fashionandfurnishing.co.uk/</loc>
+  <lastmod>2011-06-10T20:20:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://www.fashionandfurnishing.co.uk/fashion-furnishings/about.htm</loc>
+  <lastmod>2011-06-10T16:47:34+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.fashionandfurnishing.co.uk/fashion-furnishings/contacts.htm</loc>
+  <lastmod>2011-06-10T06:37:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.fashionandfurnishing.co.uk/fashion-furnishings/how-we-work.htm</loc>
+  <lastmod>2011-06-10T06:37:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.fashionandfurnishing.co.uk/fashion-furnishings/links.htm</loc>
+  <lastmod>2011-06-10T13:01:52+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.fashionandfurnishing.co.uk/index.htm</loc>
+  <lastmod>2011-06-10T20:20:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://www.fashionandfurnishing.co.uk/soft-furnishings/curtains.htm</loc>
+  <lastmod>2011-06-10T16:44:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://www.fashionandfurnishing.co.uk/soft-furnishings/blinds.htm</loc>
+  <lastmod>2011-06-10T16:47:34+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://www.fashionandfurnishing.co.uk/soft-furnishings/cushions.htm</loc>
+  <lastmod>2011-06-10T16:52:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://www.fashionandfurnishing.co.uk/soft-furnishings/upholstery.htm</loc>
+  <lastmod>2011-06-10T16:55:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://www.fashionandfurnishing.co.uk/fashion/alterations.htm</loc>
+  <lastmod>2011-06-10T17:01:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>http://www.fashionandfurnishing.co.uk/furniture/bespoke-furniture.htm</loc>
+  <lastmod>2011-06-10T17:10:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://www.fashionandfurnishing.co.uk/location.kml</loc>
+  <lastmod>2011-06-10T17:10:02+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.3</priority>
+</url>
+</urlset>

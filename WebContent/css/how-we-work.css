@@ -1,0 +1,61 @@
+.backgroundphoto
+{
+	background-image: url("../images/home2.jpg");
+	background-position: 100px -50px;
+	background-repeat: repeat-x;
+	position:absolute;
+    height:500px;
+    width:960px;
+	left:10px;
+}
+
+.backgroundshade
+{
+    background: url(../images/bottom-shade-600.png) repeat-x top left;
+    position:absolute;
+    height:500px;
+    width:960px;
+    top:0px;
+	left:10px;
+}
+
+.pagetext
+{
+    width:920px;
+    position:absolute;
+    top:250px;
+	left:30px;
+}
+
+.sidemenu P
+{
+	font-size: 8pt;
+	text-decoration: none;
+	color: #464646;
+	font-weight: bold;
+	padding:3px;
+}
+
+.sidemenu P:hover
+{
+	color: #700070;
+	cursor:pointer;
+}
+
+.subpage
+{
+	border-left: 1px solid #464646;
+	position:absolute;
+	width:980px;
+	height:520px;
+	padding-leftx:10px;
+}
+.subtitle
+{
+	font-size: small;
+	text-decoration: none;
+	color: #700070;
+	font-weight: bold;
+	padding-left:10px;
+}
+

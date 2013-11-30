@@ -1,0 +1,27 @@
+
+.linkstable
+{
+	table-layout: fixed;
+}
+
+.linkbox
+{
+	width:450px;
+	padding-top:10px;
+	padding-left:50px;
+	font-size: smaller;
+	vertical-align: top;
+
+}
+
+.linkimage
+{
+	float: left;
+	padding-right: 10px;
+}
+
+.linkimage img
+{
+	border: 1px solid #000000;
+}
+

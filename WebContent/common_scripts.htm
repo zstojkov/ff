@@ -1,0 +1,62 @@
+<!-- Start of photo album Code -->
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function(){
+	$("a[rel^='prettyPhoto']").prettyPhoto();
+	});
+</script>
+
+<!-- End of photo album Code -->
+
+<!-- Start of simple slideshow Code -->
+
+<script type="text/javascript">
+	$("#slideshow > div:gt(0)").hide();
+
+	setInterval(function() { 
+	  $('#slideshow > div:first')
+		.fadeOut(1000)
+		.next()
+		.fadeIn(1000)
+		.end()
+		.appendTo('#slideshow');
+	},  5000);
+</script>
+
+<!-- End of simple slideshow Code -->
+
+<!-- Start of Google Aalytics Code -->
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-13036466-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+<!-- End of Google Aalytics Code -->
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+	var sc_project=6175488;
+	var sc_invisible=1;
+	var sc_security="61e728a6";
+</script>
+
+<script type="text/javascript"
+	src="http://www.statcounter.com/counter/counter.js">
+</script>
+
+<noscript>
+	<div class="statcounter">
+		<a title="vBulletin statistic"
+		href="http://www.statcounter.com/vbulletin/"
+		target="_blank"><img class="statcounter"
+		src="http://c.statcounter.com/6175488/0/61e728a6/1/"
+		alt="vBulletin statistic" >
+		</a>
+	</div>
+</noscript>
+<!-- End of StatCounter Code -->

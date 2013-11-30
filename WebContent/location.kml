@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Placemark>
+    <name>Fashion &amp; Furnishing</name>
+	    <atom:author>      
+			<atom:name>Zoran Sojkov</atom:name>    
+		</atom:author>    
+		<atom:link href="http://www.fashionandfurnishing.co.uk" />  
+    <description>
+		<![CDATA[		
+			<div style="text-align:center;">
+				<a style="display:block;" href="http://www.fashionandfurnishing.co.uk" target="_blank">FASHION &amp; FURNISHING<br><br>
+					<img src="http://www.fashionandfurnishing.co.uk/images/FandF_kml.png" alt="FASHION &amp; FURNISHING">
+				</a>
+			</div>
+			<div>
+				<h3>Curtains, Blinds, Cushion, Dressmaking, Alterations</h3>
+				<a href="http://www.fashionandfurnishing.co.uk" target="_blank">Fashion &amp; Furnishing</a> is a service offering curtain making, 
+				blinds, cushions, light upholstery and small bespoke furniture, including advice and help in design and, 
+				with the partners, full interior design service. For re-styling your wardrobes we offer dress making, 
+				general and designer alterations and styling advices.
+			</div>
+			<div><Address>
+				<br>Fashion &amp; Furnishing<br>17 St Johns Court<br>St Albans<br>Hertfordshire<br>AL1 4TS<br>tel: 01727 765 303<br>mob: 07903 495 222<br>
+				</Address>
+			</div>
+		]]>
+	</description>
+    <Point>
+			<coordinates>-0.3106074432450667,51.75789751476694,0</coordinates>
+    </Point>
+  </Placemark>
+</kml>
