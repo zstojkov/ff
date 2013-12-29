@@ -4,14 +4,17 @@ h3
 }
 
 .contenttable td {
-	width: 380px;
+	width: 500px;
 	vertical-align:top;
 }
 
-.prices td
-{
-	width: 170px;
-	font-size: 14px;
+.pricetitle {
+	font-size: 12px;
 	padding-left: 40px;
+	text-align: left;
 }
 
+.pricevalue {
+	font-size: 12px;
+	text-align: right;
+}
