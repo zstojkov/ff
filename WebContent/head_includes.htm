@@ -7,8 +7,13 @@
 <meta name="copyright" content="Zoran Stojkov 2010">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link href="/css/style.css" rel="stylesheet" type="text/css">
-<script src="/js/jquery.js" type="text/javascript" charset="utf-8"></script>
-<link rel="stylesheet" href="/css/prettyPhoto.css" type="text/css" media="screen" >
-<script src="/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/jquery.js"></script>
+<script src="/js/jquery.colorbox.js"></script>
+<link href="/css/colorbox.css" rel="stylesheet" />
 <link href="/css/header.css" rel="stylesheet" type="text/css">
-
+<script>
+	$(document).ready(function(){
+		//Examples of how to assign the Colorbox event to elements
+		$(".colorboxGroup").colorbox({ opacity:0.8 , rel:'colorboxGroup', transition:"fade", width:"1000px", height:"750px", speed: 500});
+	});
+</script>
