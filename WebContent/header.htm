@@ -26,7 +26,7 @@
 	$(function() {
 		$('.smallmenu a').css("text-decoration","none");
 		pages = $('.pagecontent').attr("id");
-		if (pages.length > 0)
+		if (pages!=null && pages.length > 0)
 		{
 			menuitem=$('.smallmenu a:contains('+$('.pagecontent').attr("id")+')');
 			if (menuitem.length > 0)

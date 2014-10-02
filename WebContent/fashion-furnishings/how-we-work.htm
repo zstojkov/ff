@@ -16,7 +16,7 @@ function changeTo(el)
 /* fade out and fade in subpages */
   $('.subpage:visible').fadeOut(1000);
   $('.sidemenu p').css("text-decoration","none");
-  $('.subpage[id='+el.innerHTML+']').fadeIn(1000);
+  $('.subpage[title=\''+el.innerHTML+'\']').fadeIn(1000);
 /* underline selected subpage name in the side menu  */
   el.style.textDecoration = 'underline';
 }
@@ -34,7 +34,7 @@ function changeTo(el)
 					<p onclick="changeTo(this)">Delivery and Fitting</p>
 			</td>
 			<td>
-				<div class="subpage" id="Initial Cosultation">
+				<div class="subpage" title="Initial Cosultation">
 					<table>
 						<tr>
 							<td><h1 class="subtitle">Initial consultation is free!</h1></td>
@@ -68,7 +68,7 @@ function changeTo(el)
 						</tr>
 					</table>	
 				</div>
-				<div class="subpage" id="Design">
+				<div class="subpage" title="Design">
 					<table>
 						<tr>
 							<td><h1 class="subtitle">Your design ideas transformed into your room decoration!</h1></td>
@@ -93,7 +93,7 @@ function changeTo(el)
 						</tr>
 					</table>
 				</div>
-				<div class="subpage" id="Curtain Fabrics">
+				<div class="subpage" title="Curtain Fabrics">
 					<table>
 						<tr>
 							<td><h1 class="subtitle">Curtain fabrics for any budget!</h1></td>
@@ -116,7 +116,7 @@ function changeTo(el)
 						</tr>
 					</table>	
 				</div>
-				<div class="subpage" id="Poles and Tracks">
+				<div class="subpage" title="Poles and Tracks">
 					<table>
 						<tr>
 							<td><h1 class="subtitle">Quality curtain poles, tracks and blind mechanisms!</h1></td>
@@ -133,7 +133,7 @@ function changeTo(el)
 						</tr>
 					</table>	
 				</div>
-				<div class="subpage" id="Delivery and Fitting">
+				<div class="subpage" title="Delivery and Fitting">
 					<table>
 						<tr>
 							<td><h1 class="subtitle">All our work delivered and fitted!</h1></td>

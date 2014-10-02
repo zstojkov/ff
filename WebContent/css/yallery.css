@@ -1,0 +1,112 @@
+body {
+    margin:0px;
+}
+
+#yallery {
+	display:none;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(100, 100, 100, 0.9);
+	position: absolute; 
+	top: 0px;
+	left: 0px:
+}
+
+#yallery_area {	
+	position: absolute;
+	width: 80%;
+	height: 80%; 
+	top: 10%; 
+	left: 10%;
+}
+
+#yallery_next {
+	position:absolute;
+	border:0px;
+	right: 0px;
+	top: 50%;
+	background: url(../images/yallery/chevron4r-1.png);
+    height: 44px;
+    width: 24px;
+	background-size:100% 100%;
+}
+#yallery_next:hover {
+	background: url(../images/yallery/chevron4r-5.png);
+	background-size:100% 100%;
+}
+
+#yallery_prev {
+	position:absolute;
+	border:0px;
+	left: 0px;
+	top: 50%;
+	background: url(../images/yallery/chevron4-1.png);
+    height: 44px;
+    width: 24px;
+	background-size:100% 100%;
+}
+
+#yallery_prev:hover {
+	background: url(../images/yallery/chevron4-5.png);
+	background-size:100% 100%;
+}
+
+.yallery_center:before {
+	content: '';
+  	display: inline-block;
+  	height: 100%;
+  	vertical-align: middle;
+}
+
+.yallery_center {
+	display:none;
+	position: absolute; 
+	height:100%; 
+	width:100%; 
+	text-align: center;
+}
+
+.yallery_content {
+  	display: inline-block;
+  	vertical-align: middle;
+	padding:0px;
+	border-collapse:collapse;
+}
+
+.yallery_image  {
+	padding:0px;
+	margin:0px;
+	border: 1px solid #000000; 
+	max-width:950px;
+	max-height: 650px;
+}
+
+.yallery_footer {
+  	top: 100%;
+  	background-color:#000000;
+	width:100%;
+	border-collapse:collapse;
+}
+
+.yallery_description {
+  	font-size: big;
+  	color:#ffffff;
+ 	text-align: center;
+	width=100%;
+}
+
+
+.yallery_exit {
+	border:0px;
+	background: url(../images/yallery/cross5-2.png);
+    height: 24px;
+    width: 24px;
+	background-size:100% 100%;
+	float:right;
+	margin-right: 2px;
+}
+
+.yallery_exit:hover {
+	background: url(../images/yallery/cross5-4.png);
+	background-size:100% 100%;
+}
